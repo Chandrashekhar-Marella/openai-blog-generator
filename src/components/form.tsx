@@ -29,10 +29,10 @@ const Form = () =>
         //     return
         // }
 
-        const { result } = await createCompletion( prompt as string )
-        if ( result?.error )
+        const { error } = await createCompletion( prompt as string )
+        if ( error )
         {
-            toast.error( result.error )
+            toast.error( error )
         }
     }
 
