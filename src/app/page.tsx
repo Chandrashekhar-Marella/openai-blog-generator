@@ -7,7 +7,8 @@ import { getAllBlogs } from '@/lib/supabase'
 import Form from '@/components/form'
 import { Card, CardContent } from '@/components/ui/card'
 
-export const maxDuration = 60
+// export const maxDuration = 60
+export const maxDuration = 10
 
 export default async function Home ()
 {
