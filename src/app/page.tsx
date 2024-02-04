@@ -16,11 +16,11 @@ export default async function Home ()
   const blogs = await getAllBlogs()
 
   return (
-    <section className='py-28'>
+    <section className='py-22'>
       <div className='container max-w-5xl'>
         <Form />
 
-        <div className='mt-24'>
+        <div className='mt-4'>
           <h2 className='text-xl font-semibold leading-none tracking-tight'>
             Recent blogs
           </h2>
